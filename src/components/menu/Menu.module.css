@@ -1,0 +1,35 @@
+.wrapper {
+display: flex;
+}
+.menuButton{
+    height: 30px;
+    width: 60px;
+    background-color: #4a4e50;
+    color: #fff;
+    border: 1px solid red;
+    padding: 6px 2px 0 2px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.menuButton:hover{
+    color: #03f4cd;
+    border: 2px solid #03f4cd;
+    cursor: pointer;
+}
+.page {
+    display: inline-block;
+    height: 30px;
+    min-width: 100px;
+    background-color: #4a4e50;
+    color: #fff;
+    border: 1px solid red;
+    margin: 1px;
+    padding: 5px 0 3px 0;
+    text-align: center;
+}
+.page:hover{
+    color: #03f4cd;
+    border: 2px solid #03f4cd;
+    cursor: pointer;
+}
